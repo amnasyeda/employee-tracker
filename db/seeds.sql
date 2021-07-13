@@ -25,42 +25,29 @@ VALUES
 ('Marketing Coordinator', 55000, 3),
 ('Reginal Marketers', 60000, 3),
 ('District Marketers', 70000, 3),
-('HR Assistant', 45000, 4),
-('HR Coordinator', 50000, 4),
+('HR Assistant', 35000, 4),
+('HR Coordinator', 40000, 4),
 ('HR Manager', 70000, 4),
 ('AP Admin', 50000, 5),
 ('AR Admin', 50000, 5),
-('Finance Assistant', 70000, 5),
-('Finance Manager', 70000, 5),
-('IT Associate', 40000, 6),
-('IT Manager', 60000, 6);
+('Finance Assistant', 45000, 5),
+('Finance Manager', 72000, 5),
+('IT Associate', 50000, 6),
+('IT Manager', 65000, 6);
 
 -- Add Managers
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
 ('Anna', 'Corella', 4, NULL),
-('Tristan', 'Grant', 10, NULL),
+('Tristan', 'Grant', 8, NULL),
 ('Rose', 'Brown', 14, NULL),
-('Rita', 'Salem', 17, NULL),
-('Peter', 'Salividor', 19, NULL),
+('Rita', 'Salem', 19, NULL),
+('Peter', 'Salividor', 17, NULL),
 ('Andre', 'Doe', 23, NULL),
-('Jared', 'Williams', 1, 4),
-('Ben', 'Stone', 3, 4),
-('Zeke', 'Landon', 6, 8),
-('Robert', 'Vance', 13, 14),
-('Fiona', 'Clarke', 16, 17),
-('Kimberly', 'Williams', 18, 19),
-('Michaela', 'Reid', 22, 23);
-
-SELECT 
-    CONCAT(m.first_name, ', ', m.last_name) AS Manager,
-    CONCAT(e.last_name, ', ', e.first_name) AS 'Direct report',
-    e.id,
-    e.manager_id
-
-FROM
-    employee e
-INNER JOIN employee m ON 
-    m.manager_id = e.id
-ORDER BY 
-    Manager;
+('Jared', 'Williams', 1, 1),
+('Ben', 'Stone', 3, 2),
+('Zeke', 'Landon', 6, 1),
+('Robert', 'Vance', 15, 3),
+('Fiona', 'Clarke', 17, 4),
+('Kimberly', 'Williams', 18, 5),
+('Michaela', 'Reid', 21, 6);
