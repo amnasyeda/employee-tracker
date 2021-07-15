@@ -17,7 +17,7 @@ The user will first clone this repository and have Node.js and MySql installed o
 https://user-images.githubusercontent.com/81194686/125718832-bfbc3d2d-645c-4d46-b65a-bb4909a80393.mov
 
 ### Note: Video had to be speeded in order to be under 10MB for GitHub ReadMe. Please pause if needed. 
-### Normal speed video can be found in the IMG file above. 
+### Normal speed video can be found in the IMG file above or [Here](https://www.youtube.com/watch?v=-0H2i7Znnmc)
 
 ## Tools
 * JavaScript
