@@ -5,7 +5,7 @@ A command-line application which uses Node.js and saves information for each emp
 
 ## Table of Contents
 * [Installation](#installation)
-* [Walkthrough Video](#walkthrough_video)
+* [Video](#video)
 * [Tests](#tests)
 * [Tools](#tools)
 * [Credits](#credits)
@@ -14,7 +14,7 @@ A command-line application which uses Node.js and saves information for each emp
 ## Installation
 The user will first clone this repository and have Node.js installed on their computer. They must also install inquirer, fs, and jest. To install these programs, the user will type `npm install <required-package>`.
 
-## Walkthrough Video
+## Video
 
 video 
 
