@@ -16,8 +16,9 @@ The user will first clone this repository and have Node.js installed on their co
 
 ## Video
 
-video 
+https://user-images.githubusercontent.com/81194686/125718832-bfbc3d2d-645c-4d46-b65a-bb4909a80393.mov
 
+### Note: Video had to be speeded in order to be under 10MB for GitHub. Please pause if needed. 
 
 ## Tests
 The tests for this database can be completed by running `npm test` in the command line, which will run tests for the general database. `npm test <testing.js>` where <testing.js> is replaced with the file name you wish to test can be ran to test a specific section. 
