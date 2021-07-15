@@ -1,0 +1,35 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "an application which tracks and organizes employees.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amnasyeda/employee-tracker.git"
+  },
+  "keywords": [
+    "sql",
+    "node.js",
+    "express.js"
+  ],
+  "author": "Amna Syeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amnasyeda/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/amnasyeda/employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.1",
+    "mysql2": "^2.2.5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
