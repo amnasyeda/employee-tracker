@@ -35,7 +35,6 @@ VALUES
 ('IT Associate', 50000, 6),
 ('IT Manager', 65000, 6);
 
--- Add Managers
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
 ('Anna', 'Corella', 4, NULL),
